@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Manish Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/MANISHYASH">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/manish-yashwant">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">hello, I'm</h6>
+                <h6 class="title" style="color:#ff7a57;">Manish Yashwant</h6>
+                <!--<img src="assets/imgs/manish.jpg" alt="James Smith" class="passport-photo" width="">-->
+                
+    
+                <div class="buttons pt-3">
+                    <a href="https://wa.me/9944619311" class="btn btn-light rounded" target="_blank">HIRE ME</a>
+                    <a href="assets/docs/resume.pdf" class="btn btn-dark rounded" id="downloadCV">DOWNLOAD CV</a>
+                </div>
+    
+            </div>
+            <div class="img-holder">
+                <img src="assets/imgs/data-science-overview.png" alt="">
+            </div>
+        </div>
+        
+    </header>
+    
+    <style>
+        .contact-info .item {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space between items */
+}
+
+.contact-info .item i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.contact1 h5,
+.contact1 p {
+    margin: 0; /* Remove default margins */
+    text-decoration: none; /* Remove underline */
+}
+
+        @media (max-width: 768px) {
+    .contact1 {
+        color: white; /* Change text color to white */
+    }
+
+    .infos {
+       
+        padding: 20px;
+    }
+
+    .contact {
+        height: 300px;
+        
+    }
+
+    
+}
+
+  .passport-photo {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes it circular */
+    margin-bottom: 15px; /* Space between image and text */
+}
+
+@media (max-width: 768px) {
+    .passport-photo {
+        width: 80px; /* Smaller width for mobile devices */
+    }
+}
+
+.skill-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Left align the text */
+}
+
+.skill-list li {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Center icons and text */
+    padding: 10px; /* Padding for the list items */
+    font-size: 1em; /* Font size */
+    color: #333; /* Text color */
+}
+
+.skill-list li i {
+    color: #007bff; /* Tick icon color */
+    margin-right: 10px; /* Space between icon and text */
+    margin-top: 20px;
+    font-size: 1em; /* Base font size */
+    transform: scale(0.6); /* Scale down the icon */
+    transform-origin: center; /* Center the scaling */
+}
+
+.custom-card {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px;
+}
+
+.card-body h5 {
+    font-weight: bold; /* Make headings bold */
+    margin-bottom: 5px; /* Space below heading */
+    padding: 5px;
+}
+
+.card-body p {
+    margin: 0; /* Remove default margin */
+    padding: 15px;
+}
+
+
+
+    </style>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/manish.jpg" alt="" class="img-thumbnail mb-4" style="border:0;">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">My name is MANISH YASHWANT,</h6>
+                    <p class="subtitle">I am a dedicated data scientist </p>
+                    <p>I have a strong academic background and hands-on experience in the field. I completed my education at St. Joseph's College in Trichy, where I achieved excellent academic results. I hold a certification from the Guvi platform, which has equipped me with essential skills and knowledge in data science. I am actively seeking job opportunities to leverage my expertise and contribute to innovative projects in the industry. Please explore my portfolio to view my work and the projects I have undertaken.</p><br>
+                        <a href="assets/docs/resume.pdf" class="btn btn-dark rounded" id="downloadCV">DOWNLOAD CV</a>                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">My Skills</h6>
+            <h1 class="section-title mb-4">Useful For Your Work</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="fas fa-chart-bar"></i> <!-- Icon for Data Cleaning & Visualization -->
+                            <h5>Data Cleaning & Visualization</h5><br>
+                            <ul class="skill-list">
+                                <li><i class="fas fa-check-circle"></i> Numpy & Pandas</li>
+                                <li><i class="fas fa-check-circle"></i> EDA (Statistical & Inferential Analysis)</li>
+                                <li><i class="fas fa-check-circle"></i> Power BI</li>
+                                <li><i class="fas fa-check-circle"></i> Matplotlib & Seaborn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="fas fa-database"></i> <!-- Icon for Database Management -->
+                            <h5>Database Management</h5><br>
+                            <ul class="skill-list">
+                                <li><i class="fas fa-check-circle"></i> Python</li>
+                                <li><i class="fas fa-check-circle"></i> SQL</li>
+                                <li><i class="fas fa-check-circle"></i> MySQL Database</li>
+                                <li><i class="fas fa-check-circle"></i> Selenium (Webscraping)</li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="fas fa-robot"></i> <!-- Icon for Machine Learning -->
+                            <h5>Machine Learning</h5><br>
+                            <ul class="skill-list">
+                                <li><i class="fas fa-check-circle"></i> Regression & Classification Algorithms
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Clustering Algorithms</li>
+                                <li><i class="fas fa-check-circle"></i> Model Developement, Evaluation & Optimization</li>
+                                <li><i class="fas fa-check-circle"></i> NLP & Deep Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="fas fa-cogs"></i> <!-- Icon for Tools & Development -->
+                            <h5>Tools & Development</h5><br>
+                            <ul class="skill-list">
+                                <li><i class="fas fa-check-circle"></i> AWS & Hugging Face Spaces</li>
+                                <li><i class="fas fa-check-circle"></i> Streamlit & Gradio</li>
+                                <li><i class="fas fa-check-circle"></i> Model Deployment & Management</li>
+                                <li><i class="fas fa-check-circle"></i> LLM Models Integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- End of Sectoin -->
+
+    
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Portfolio</h6>
+            <h6 class="section-title mb-4">Check My Wonderful Works</h6>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper" onclick="openModal('Redbus Data Scraping', 'Redbus Data Scraping Project: Developed a web scraping tool using Selenium and Python to extract real-time bus schedules, pricing, and availability data from the Redbus platform. The data was further analyzed and visualized using Streamlit, providing insights into route efficiency and pricing trends.', 'https://github.com/MANISHYASH/Redbus-Data-Scraping-and-Streamlit-App')">
+                        <img src="assets/imgs/redbus.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Redbus Data Scraping</h5>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper" onclick="openModal('DataSpark Project', 'DataSpark Project (Retail Analytics for Global Electronics): Implemented a comprehensive retail analytics solution for a global electronics retailer, utilizing Power BI to visualize sales performance, product trends, and store analytics. Integrated multiple datasets such as sales, customer, product, and exchange rate data to derive actionable insights.', 'https://github.com/MANISHYASH/DataSpark-Illuminating-Insights-for-Global-Electronics')">
+                        <img src="assets/imgs/dataspark.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>DataSpark Project</h5>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper" onclick="openModal('Car Price Prediction', 'Car Price Prediction (CarDekho Dataset): Built a machine learning model to predict car prices based on features like engine size, mileage, and year of manufacture. The model, developed using Python and XGBoost, was deployed through a user-friendly Streamlit app that provides real-time price predictions.', 'https://github.com/MANISHYASH/Car_Dheko-Used_Car_Price_Prediction')">
+                        <img src="assets/imgs/carprice.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Car Price Prediction</h5>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper" onclick="openModal('Cybersecurity Incidents', 'Microsoft Cybersecurity Incidents Project: Developed a fraud detection system using machine learning algorithms like logistic regression and decision trees to identify fraudulent financial transactions. Applied classification models and optimized performance through GridSearchCV, ensuring the system accurately flags suspicious activities for review.', 'https://github.com/MANISHYASH/Microsoft-Classifying_Cybersecurity_Incidents')">
+                        <img src="assets/imgs/microsoft.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Cybersecurity Incidents</h5>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper" onclick="openModal('Multilingual Storyteller', 'Multilingual Storyteller Project: Created a multilingual text translation and content generation platform powered by AI. This system translates stories across multiple languages and generates accompanying text and images based on the content, enhancing cross-cultural storytelling through advanced NLP models.', 'https://github.com/MANISHYASH/multilingual-storyteller')">
+                        <img src="assets/imgs/multilingual.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Multilingual Storyteller</h5>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper" onclick="openModal('Domino’s Sales Forecasting', 'Domino’s Sales Forecasting Using LSTM: Designed a time series forecasting model using LSTM neural networks to predict future Domino’s pizza sales. The model analyzed historical sales data to forecast demand, enabling more efficient resource allocation and inventory management for better business decision-making.', 'https://github.com/MANISHYASH/Dominos---Predictive-Purchase-Order-System')">
+                        <img src="assets/imgs/domino.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Domino’s Sales Forecasting</h5>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal -->
+        <div class="modal" id="portfolioModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitle"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="modalDescription"></p>
+                        <a id="modalLink" href="#" target="_blank" class="btn btn-primary">Click Here</a> <!-- Link to project -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" onclick="closeModal()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+        function openModal(title, description, link) {
+            document.getElementById('modalTitle').innerText = title;
+            document.getElementById('modalDescription').innerText = description;
+            document.getElementById('modalLink').href = link; // Set the link in the modal
+            $('#portfolioModal').modal('show'); // Show the modal
+        }
+    
+        function closeModal() {
+            $('#portfolioModal').modal('hide'); // Hide the modal
+        }
+        </script>
+    </section>
+    
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Education</h6>
+            <h1 class="section-title mb-4">See My Achivements</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <h5>GUVI Geek Networks, IITM Research Park(2024)</h5>
+                            <p><b>Master in Data Science</b></p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#modalGUVI">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <h5>St. Joseph's College Trichy(2021-2024)</h5>
+                            <p><b>BCA - 7.14(CGPA)</b></p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#modalStJoseph">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <h5>Kendriya Vidyalaya-HAPP(2021)</h5>
+                            <p><b>HSC (CS) - 77.8%</b></p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#modalKendriyaHSC">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <h5>Kendriya Vidyalaya-HAPP(2019)</h5>
+                            <p><b>SSC - 66.6%</b></p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#modalKendriyaSSC">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modals -->
+        <div class="modal fade" id="modalGUVI" tabindex="-1" role="dialog" aria-labelledby="modalGUVILabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalGUVILabel">GUVI Geek Networks, IITM Research Park</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Throughout my Master in Data Science at GUVI Geek Networks, I have gained a strong foundation in Machine Learning and Artificial Intelligence, working with algorithms such as Linear Regression, Decision Trees, and Neural Networks. I have honed my skills in Data Analysis and Visualization, using tools like Python (Pandas, Matplotlib, Seaborn) and Power BI to interpret data and present insights effectively. My experience with SQL and Database Management includes writing complex queries for data manipulation and using MySQL for efficient database operations. Additionally, I am well-versed in Statistical Analysis and Data Preprocessing, handling tasks such as cleaning, encoding, and normalizing data to ensure high-quality inputs for machine learning models.
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalStJoseph" tabindex="-1" role="dialog" aria-labelledby="modalStJosephLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalStJosephLabel">St. Joseph's College Trichy</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        During my Bachelor of Computer Applications (BCA) at St. Joseph's College, Trichy, I developed a solid understanding of computer programming and software development. I gained hands-on experience in languages such as C, C++, Java, and Python, building a strong foundation in both procedural and object-oriented programming. Additionally, I studied database management systems and worked with SQL for data storage and retrieval. My coursework also covered areas like Data Structures, Web Development, and Operating Systems, allowing me to cultivate problem-solving skills and a structured approach to software design. This degree has equipped me with a versatile technical skillset, preparing me for more advanced learning in the field of data science and technology.
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalKendriyaHSC" tabindex="-1" role="dialog" aria-labelledby="modalKendriyaHSCLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalKendriyaHSCLabel">Kendriya Vidyalaya HAPP - HSC</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Completed 12th Grade at Kendriya Vidyalaya HAPP in 2021, with a focus on Computer Science. Learned programming basics in Python and gained knowledge of SQL and fundamental concepts in data structures and algorithms.
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalKendriyaSSC" tabindex="-1" role="dialog" aria-labelledby="modalKendriyaSSCLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalKendriyaSSCLabel">Kendriya Vidyalaya HAPP - SSC</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Completed SSC (10th Grade) at Kendriya Vidyalaya HAPP in 2019, achieving a score of 66.6%. This foundational education provided me with essential knowledge across subjects, fostering skills in mathematics, science, and problem-solving, which prepared me for higher education in Computer Science.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- End of Education Section -->
+
+    
+    <!-- End of portfolio section -->
+
+    
+
+    <!-- Hire me section -->
+    <section class="bg-gray p-0 section">
+        <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h5 class="mt-3">Hire Me For Your Project</h5>
+                            <p class="mb-3">I'm curios to work for your organization</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <a href="https://wa.me/9944619311" class="btn btn-light rounded" target="_blank" >Hire Me!</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>      
+    <!-- End od Hire me section. -->
+
+<style>
+
+.ti-location-pin{
+    margin-bottom: 20px;
+}
+
+.ti-email{
+    margin-bottom: 20px;
+}
+.ti-mobile{
+    margin-bottom: 20px;
+}
+</style>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="position-relative section">
+    <div class="container text-center">
+        <h6 class="subtitle">Contact</h6>
+        <h6 class="section-title mb-4">Get In Touch With Me</h6>
+
+        <div class="contact text-left" style="padding: 50px; background-color: black; color: white; width: 100%; max-width: 600px; margin: auto; border-radius: 10px;">
+            <div class="contact-info">
+                <div class="item">
+                    <i class="ti-location-pin"></i>
+                    <div class="contact1">
+                        <h5 class="contact1">Location</h5>
+                        <p class="contact1">Trichy, Tamilnadu, India</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="ti-mobile"></i>
+                    <div class="contact1">
+                        <h5>Phone Number</h5>
+                        <p>+91 99446 19311</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="ti-email"></i>
+                    <div class="contact1">
+                        <h5>Email Address</h5>
+                        <p>manishyashwant.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+</section>
+<!-- End of Contact Section -->
+
+    <!-- End of Contact Section -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="#" target="_blank">Manish Yashwant</a></p>
+                </div>
+                <!--<div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="https://github.com/MANISHYASH )"><i class="ti-github"></i></a>
+                        <a class="social-item" href="https://www.linkedin.com/in/manish-yashwant"><i class="ti-linkedin"></i></a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const downloadLink = document.getElementById('downloadCV');
+    
+            if (window.matchMedia("(max-width: 768px)").matches) {
+                // For mobile view
+                downloadLink.onclick = function() {
+                    window.open(downloadLink.href, '_blank');
+                    return false; // Prevent default action
+                };
+            }
+        });
+    </script>
+
+</body>
+</html>
